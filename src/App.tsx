@@ -4,7 +4,6 @@ import styled from "styled-components";
 import {StyledBtn, SuperButton} from "./components/Button.styled";
 import {Link} from "./components/Link.styled";
 import {Menu} from "./components/Menu.styled";
-import {PixelItem} from "./components/PixelItem.styled";
 
 
 function App() {
@@ -23,13 +22,6 @@ function App() {
                 <StyledBtn as='a' href='#'>Link</StyledBtn>
                 <StyledBtn>Hello</StyledBtn>
                 <SuperButton>SuperButton</SuperButton>
-            </Box>
-
-            <Box>
-                <PixelItem></PixelItem>
-                <PixelItem></PixelItem>
-                <PixelItem></PixelItem>
-                <PixelItem></PixelItem>
             </Box>
         </div>
     );
